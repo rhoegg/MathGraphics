@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9446815C1571F27D00AD849F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815B1571F27D00AD849F /* UIKit.framework */; };
+		9446815E1571F27D00AD849F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815D1571F27D00AD849F /* Foundation.framework */; };
+		944681601571F27D00AD849F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815F1571F27D00AD849F /* CoreGraphics.framework */; };
+		944681661571F27D00AD849F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 944681641571F27D00AD849F /* InfoPlist.strings */; };
+		944681691571F27D00AD849F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944681681571F27D00AD849F /* main.m */; };
+		9446816C1571F27D00AD849F /* MathGraphicsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */; };
+		9446816F1571F27D00AD849F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9446816D1571F27D00AD849F /* MainWindow.xib */; };
+		944681721571F27D00AD849F /* MathGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944681711571F27D00AD849F /* MathGraphicsViewController.m */; };
+		944681751571F27D00AD849F /* MathGraphicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944681731571F27D00AD849F /* MathGraphicsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		944681571571F27D00AD849F /* MathGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9446815B1571F27D00AD849F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9446815D1571F27D00AD849F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9446815F1571F27D00AD849F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		944681631571F27D00AD849F /* MathGraphics-Info.plist */ = {isa = PBXFileReference; path = "MathGraphics-Info.plist"; sourceTree = "<group>"; };
+		944681651571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		944681671571F27D00AD849F /* MathGraphics-Prefix.pch */ = {isa = PBXFileReference; path = "MathGraphics-Prefix.pch"; sourceTree = "<group>"; };
+		944681681571F27D00AD849F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9446816A1571F27D00AD849F /* MathGraphicsAppDelegate.h */ = {isa = PBXFileReference; path = MathGraphicsAppDelegate.h; sourceTree = "<group>"; };
+		9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathGraphicsAppDelegate.m; sourceTree = "<group>"; };
+		9446816E1571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		944681701571F27D00AD849F /* MathGraphicsViewController.h */ = {isa = PBXFileReference; path = MathGraphicsViewController.h; sourceTree = "<group>"; };
+		944681711571F27D00AD849F /* MathGraphicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathGraphicsViewController.m; sourceTree = "<group>"; };
+		944681741571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MathGraphicsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		944681541571F27D00AD849F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9446815C1571F27D00AD849F /* UIKit.framework in Frameworks */,
+				9446815E1571F27D00AD849F /* Foundation.framework in Frameworks */,
+				944681601571F27D00AD849F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9446814C1571F27D00AD849F = {
+			isa = PBXGroup;
+			children = (
+				944681611571F27D00AD849F /* MathGraphics */,
+				9446815A1571F27D00AD849F /* Frameworks */,
+				944681581571F27D00AD849F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		944681581571F27D00AD849F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				944681571571F27D00AD849F /* MathGraphics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9446815A1571F27D00AD849F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9446815B1571F27D00AD849F /* UIKit.framework */,
+				9446815D1571F27D00AD849F /* Foundation.framework */,
+				9446815F1571F27D00AD849F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		944681611571F27D00AD849F /* MathGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				9446816A1571F27D00AD849F /* MathGraphicsAppDelegate.h */,
+				9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */,
+				9446816D1571F27D00AD849F /* MainWindow.xib */,
+				944681701571F27D00AD849F /* MathGraphicsViewController.h */,
+				944681711571F27D00AD849F /* MathGraphicsViewController.m */,
+				944681731571F27D00AD849F /* MathGraphicsViewController.xib */,
+				944681621571F27D00AD849F /* Supporting Files */,
+			);
+			path = MathGraphics;
+			sourceTree = "<group>";
+		};
+		944681621571F27D00AD849F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				944681631571F27D00AD849F /* MathGraphics-Info.plist */,
+				944681641571F27D00AD849F /* InfoPlist.strings */,
+				944681671571F27D00AD849F /* MathGraphics-Prefix.pch */,
+				944681681571F27D00AD849F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		944681561571F27D00AD849F /* MathGraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 944681781571F27D00AD849F /* Build configuration list for PBXNativeTarget "MathGraphics" */;
+			buildPhases = (
+				944681531571F27D00AD849F /* Sources */,
+				944681541571F27D00AD849F /* Frameworks */,
+				944681551571F27D00AD849F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathGraphics;
+			productName = MathGraphics;
+			productReference = 944681571571F27D00AD849F /* MathGraphics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9446814E1571F27D00AD849F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Brightdome;
+			};
+			buildConfigurationList = 944681511571F27D00AD849F /* Build configuration list for PBXProject "MathGraphics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9446814C1571F27D00AD849F;
+			productRefGroup = 944681581571F27D00AD849F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				944681561571F27D00AD849F /* MathGraphics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		944681551571F27D00AD849F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944681661571F27D00AD849F /* InfoPlist.strings in Resources */,
+				9446816F1571F27D00AD849F /* MainWindow.xib in Resources */,
+				944681751571F27D00AD849F /* MathGraphicsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		944681531571F27D00AD849F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				944681691571F27D00AD849F /* main.m in Sources */,
+				9446816C1571F27D00AD849F /* MathGraphicsAppDelegate.m in Sources */,
+				944681721571F27D00AD849F /* MathGraphicsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		944681641571F27D00AD849F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944681651571F27D00AD849F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9446816D1571F27D00AD849F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9446816E1571F27D00AD849F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		944681731571F27D00AD849F /* MathGraphicsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				944681741571F27D00AD849F /* en */,
+			);
+			name = MathGraphicsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		944681761571F27D00AD849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		944681771571F27D00AD849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		944681791571F27D00AD849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathGraphics/MathGraphics-Prefix.pch";
+				INFOPLIST_FILE = "MathGraphics/MathGraphics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9446817A1571F27D00AD849F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MathGraphics/MathGraphics-Prefix.pch";
+				INFOPLIST_FILE = "MathGraphics/MathGraphics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		944681511571F27D00AD849F /* Build configuration list for PBXProject "MathGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944681761571F27D00AD849F /* Debug */,
+				944681771571F27D00AD849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		944681781571F27D00AD849F /* Build configuration list for PBXNativeTarget "MathGraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				944681791571F27D00AD849F /* Debug */,
+				9446817A1571F27D00AD849F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9446814E1571F27D00AD849F /* Project object */;
+}
