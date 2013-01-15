@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940FE3DA1585432600F40048 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 940FE3D91585432600F40048 /* GLKit.framework */; };
 		9446815C1571F27D00AD849F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815B1571F27D00AD849F /* UIKit.framework */; };
 		9446815E1571F27D00AD849F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815D1571F27D00AD849F /* Foundation.framework */; };
 		944681601571F27D00AD849F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9446815F1571F27D00AD849F /* CoreGraphics.framework */; };
@@ -14,25 +15,50 @@
 		944681691571F27D00AD849F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 944681681571F27D00AD849F /* main.m */; };
 		9446816C1571F27D00AD849F /* MathGraphicsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */; };
 		9446816F1571F27D00AD849F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9446816D1571F27D00AD849F /* MainWindow.xib */; };
-		944681721571F27D00AD849F /* MathGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 944681711571F27D00AD849F /* MathGraphicsViewController.m */; };
-		944681751571F27D00AD849F /* MathGraphicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 944681731571F27D00AD849F /* MathGraphicsViewController.xib */; };
+		944681801571F9BC00AD849F /* BasicPolarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9446817F1571F9BC00AD849F /* BasicPolarGraphView.m */; };
+		9487013E1583BD7500F2AFE4 /* BasicOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9487013D1583BD7500F2AFE4 /* BasicOpenGLView.m */; };
+		948701411583BD9D00F2AFE4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948701401583BD9D00F2AFE4 /* OpenGLES.framework */; };
+		948701441584FAE100F2AFE4 /* Basic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 948701431584FAE100F2AFE4 /* Basic.vsh */; };
+		948701461584FB4500F2AFE4 /* Basic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 948701451584FB4500F2AFE4 /* Basic.fsh */; };
+		94F6B1B61573499900BBF140 /* AnimatedPolarGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F6B1B51573499900BBF140 /* AnimatedPolarGraphView.m */; };
+		94F6B1B91573519C00BBF140 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F6B1B81573519C00BBF140 /* QuartzCore.framework */; };
+		94F6B1BC1574F25D00BBF140 /* PeriodicFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F6B1BB1574F25D00BBF140 /* PeriodicFunction.m */; };
+		94F6B1C61575579C00BBF140 /* CATemporalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F6B1C51575579C00BBF140 /* CATemporalLayer.m */; };
+		94F6B1C815755EAD00BBF140 /* Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F6B1C715755EAD00BBF140 /* Function.m */; };
+		94F6B1CB1575614500BBF140 /* MathGraphicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F6B1CA1575614500BBF140 /* MathGraphicsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		940FE3D91585432600F40048 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		944681571571F27D00AD849F /* MathGraphics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathGraphics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9446815B1571F27D00AD849F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9446815D1571F27D00AD849F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9446815F1571F27D00AD849F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		944681631571F27D00AD849F /* MathGraphics-Info.plist */ = {isa = PBXFileReference; path = "MathGraphics-Info.plist"; sourceTree = "<group>"; };
+		944681631571F27D00AD849F /* MathGraphics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MathGraphics-Info.plist"; sourceTree = "<group>"; };
 		944681651571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		944681671571F27D00AD849F /* MathGraphics-Prefix.pch */ = {isa = PBXFileReference; path = "MathGraphics-Prefix.pch"; sourceTree = "<group>"; };
+		944681671571F27D00AD849F /* MathGraphics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathGraphics-Prefix.pch"; sourceTree = "<group>"; };
 		944681681571F27D00AD849F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9446816A1571F27D00AD849F /* MathGraphicsAppDelegate.h */ = {isa = PBXFileReference; path = MathGraphicsAppDelegate.h; sourceTree = "<group>"; };
+		9446816A1571F27D00AD849F /* MathGraphicsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathGraphicsAppDelegate.h; sourceTree = "<group>"; };
 		9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathGraphicsAppDelegate.m; sourceTree = "<group>"; };
 		9446816E1571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		944681701571F27D00AD849F /* MathGraphicsViewController.h */ = {isa = PBXFileReference; path = MathGraphicsViewController.h; sourceTree = "<group>"; };
-		944681711571F27D00AD849F /* MathGraphicsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathGraphicsViewController.m; sourceTree = "<group>"; };
-		944681741571F27D00AD849F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MathGraphicsViewController.xib; sourceTree = "<group>"; };
+		9446817E1571F9BC00AD849F /* BasicPolarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPolarGraphView.h; sourceTree = "<group>"; };
+		9446817F1571F9BC00AD849F /* BasicPolarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPolarGraphView.m; sourceTree = "<group>"; };
+		9487013C1583BD7500F2AFE4 /* BasicOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicOpenGLView.h; sourceTree = "<group>"; };
+		9487013D1583BD7500F2AFE4 /* BasicOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicOpenGLView.m; sourceTree = "<group>"; };
+		948701401583BD9D00F2AFE4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		948701431584FAE100F2AFE4 /* Basic.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; fileEncoding = 4; path = Basic.vsh; sourceTree = "<group>"; };
+		948701451584FB4500F2AFE4 /* Basic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Basic.fsh; sourceTree = "<group>"; };
+		94F6B1B41573499900BBF140 /* AnimatedPolarGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedPolarGraphView.h; sourceTree = "<group>"; };
+		94F6B1B51573499900BBF140 /* AnimatedPolarGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedPolarGraphView.m; sourceTree = "<group>"; };
+		94F6B1B81573519C00BBF140 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		94F6B1BA1574F25D00BBF140 /* PeriodicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeriodicFunction.h; sourceTree = "<group>"; };
+		94F6B1BB1574F25D00BBF140 /* PeriodicFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeriodicFunction.m; sourceTree = "<group>"; };
+		94F6B1C115753F7A00BBF140 /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		94F6B1C41575579C00BBF140 /* CATemporalLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATemporalLayer.h; sourceTree = "<group>"; };
+		94F6B1C51575579C00BBF140 /* CATemporalLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATemporalLayer.m; sourceTree = "<group>"; };
+		94F6B1C715755EAD00BBF140 /* Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Function.m; sourceTree = "<group>"; };
+		94F6B1C91575614500BBF140 /* MathGraphicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathGraphicsViewController.h; sourceTree = "<group>"; };
+		94F6B1CA1575614500BBF140 /* MathGraphicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathGraphicsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940FE3DA1585432600F40048 /* GLKit.framework in Frameworks */,
+				948701411583BD9D00F2AFE4 /* OpenGLES.framework in Frameworks */,
+				94F6B1B91573519C00BBF140 /* QuartzCore.framework in Frameworks */,
 				9446815C1571F27D00AD849F /* UIKit.framework in Frameworks */,
 				9446815E1571F27D00AD849F /* Foundation.framework in Frameworks */,
 				944681601571F27D00AD849F /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +98,9 @@
 		9446815A1571F27D00AD849F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				940FE3D91585432600F40048 /* GLKit.framework */,
+				948701401583BD9D00F2AFE4 /* OpenGLES.framework */,
+				94F6B1B81573519C00BBF140 /* QuartzCore.framework */,
 				9446815B1571F27D00AD849F /* UIKit.framework */,
 				9446815D1571F27D00AD849F /* Foundation.framework */,
 				9446815F1571F27D00AD849F /* CoreGraphics.framework */,
@@ -79,13 +111,14 @@
 		944681611571F27D00AD849F /* MathGraphics */ = {
 			isa = PBXGroup;
 			children = (
+				948701421584FAAF00F2AFE4 /* Shaders */,
+				9446817D1571F99100AD849F /* Classes */,
 				9446816A1571F27D00AD849F /* MathGraphicsAppDelegate.h */,
 				9446816B1571F27D00AD849F /* MathGraphicsAppDelegate.m */,
 				9446816D1571F27D00AD849F /* MainWindow.xib */,
-				944681701571F27D00AD849F /* MathGraphicsViewController.h */,
-				944681711571F27D00AD849F /* MathGraphicsViewController.m */,
-				944681731571F27D00AD849F /* MathGraphicsViewController.xib */,
 				944681621571F27D00AD849F /* Supporting Files */,
+				94F6B1C91575614500BBF140 /* MathGraphicsViewController.h */,
+				94F6B1CA1575614500BBF140 /* MathGraphicsViewController.m */,
 			);
 			path = MathGraphics;
 			sourceTree = "<group>";
@@ -99,6 +132,34 @@
 				944681681571F27D00AD849F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9446817D1571F99100AD849F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9446817E1571F9BC00AD849F /* BasicPolarGraphView.h */,
+				9446817F1571F9BC00AD849F /* BasicPolarGraphView.m */,
+				94F6B1B41573499900BBF140 /* AnimatedPolarGraphView.h */,
+				94F6B1B51573499900BBF140 /* AnimatedPolarGraphView.m */,
+				94F6B1BA1574F25D00BBF140 /* PeriodicFunction.h */,
+				94F6B1BB1574F25D00BBF140 /* PeriodicFunction.m */,
+				94F6B1C115753F7A00BBF140 /* Function.h */,
+				94F6B1C715755EAD00BBF140 /* Function.m */,
+				94F6B1C41575579C00BBF140 /* CATemporalLayer.h */,
+				94F6B1C51575579C00BBF140 /* CATemporalLayer.m */,
+				9487013C1583BD7500F2AFE4 /* BasicOpenGLView.h */,
+				9487013D1583BD7500F2AFE4 /* BasicOpenGLView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		948701421584FAAF00F2AFE4 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				948701431584FAE100F2AFE4 /* Basic.vsh */,
+				948701451584FB4500F2AFE4 /* Basic.fsh */,
+			);
+			name = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +214,8 @@
 			files = (
 				944681661571F27D00AD849F /* InfoPlist.strings in Resources */,
 				9446816F1571F27D00AD849F /* MainWindow.xib in Resources */,
-				944681751571F27D00AD849F /* MathGraphicsViewController.xib in Resources */,
+				948701461584FB4500F2AFE4 /* Basic.fsh in Resources */,
+				948701441584FAE100F2AFE4 /* Basic.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +228,13 @@
 			files = (
 				944681691571F27D00AD849F /* main.m in Sources */,
 				9446816C1571F27D00AD849F /* MathGraphicsAppDelegate.m in Sources */,
-				944681721571F27D00AD849F /* MathGraphicsViewController.m in Sources */,
+				944681801571F9BC00AD849F /* BasicPolarGraphView.m in Sources */,
+				94F6B1B61573499900BBF140 /* AnimatedPolarGraphView.m in Sources */,
+				94F6B1BC1574F25D00BBF140 /* PeriodicFunction.m in Sources */,
+				94F6B1C61575579C00BBF140 /* CATemporalLayer.m in Sources */,
+				94F6B1C815755EAD00BBF140 /* Function.m in Sources */,
+				94F6B1CB1575614500BBF140 /* MathGraphicsViewController.m in Sources */,
+				9487013E1583BD7500F2AFE4 /* BasicOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +255,6 @@
 				9446816E1571F27D00AD849F /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		944681731571F27D00AD849F /* MathGraphicsViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				944681741571F27D00AD849F /* en */,
-			);
-			name = MathGraphicsViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -281,6 +341,7 @@
 				9446817A1571F27D00AD849F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

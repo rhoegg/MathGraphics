@@ -7,7 +7,6 @@
 //
 
 #import "MathGraphicsAppDelegate.h"
-
 #import "MathGraphicsViewController.h"
 
 @implementation MathGraphicsAppDelegate
@@ -20,7 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-     
+    srandom(time(NULL));
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
